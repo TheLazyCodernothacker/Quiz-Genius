@@ -1,0 +1,104 @@
+body {
+  background-color: var(--white);
+  margin: 0;
+}
+
+:root {
+  --white: #f9f9f9;
+  --primary: #fee35a;
+  --secondary: #f5d856;
+  --grey: #eaeaea;
+}
+
+.nav {
+  display: flex;
+  padding: 1.5rem;
+  align-items: center;
+  background-color: var(--white);
+  border-bottom: 2px solid var(--grey);
+}
+
+.navText {
+  font-size: 1.2rem;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  margin-right: 2rem;
+  padding: 0rem 0.5rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+}
+
+.hero {
+  background-color: #ccaa11;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23CCAA11' width='11' height='11'/%3E%3Crect fill='%23cdab12' x='10' width='11' height='11'/%3E%3Crect fill='%23cdac12' y='10' width='11' height='11'/%3E%3Crect fill='%23cead13' x='20' width='11' height='11'/%3E%3Crect fill='%23cfae14' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23cfaf14' y='20' width='11' height='11'/%3E%3Crect fill='%23d0b015' x='30' width='11' height='11'/%3E%3Crect fill='%23d0b116' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23d1b216' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23d2b317' y='30' width='11' height='11'/%3E%3Crect fill='%23d2b418' x='40' width='11' height='11'/%3E%3Crect fill='%23d3b518' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23d3b519' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23d4b61a' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23d5b71a' y='40' width='11' height='11'/%3E%3Crect fill='%23d5b81b' x='50' width='11' height='11'/%3E%3Crect fill='%23d6b91c' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23d6ba1c' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23d7bb1d' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23d8bc1e' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23d8bd1e' y='50' width='11' height='11'/%3E%3Crect fill='%23d9be1f' x='60' width='11' height='11'/%3E%3Crect fill='%23d9bf1f' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23dac020' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23dbc121' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23dbc221' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23dcc322' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23dcc423' x='70' width='11' height='11'/%3E%3Crect fill='%23ddc523' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23dec624' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23dec725' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23dfc825' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23dfc926' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23e0ca26' x='80' width='11' height='11'/%3E%3Crect fill='%23e0cb27' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23e1cc28' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23e2cd28' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23e2ce29' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23e3cf2a' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23e3d02a' x='90' width='11' height='11'/%3E%3Crect fill='%23e4d12b' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23e4d22b' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23e5d32c' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23e5d42d' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23e6d52d' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23e7d62e' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23e7d72f' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23e8d82f' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23e8d930' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23e9da31' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23e9db31' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23eadc32' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23eadd32' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23ebde33' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23ebdf34' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23ece034' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23ece135' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23ede236' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23ede336' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23EEE437' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 3rem;
+}
+
+.logoText {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.navLogin {
+  margin-left: auto;
+  background: var(--primary);
+  padding: 2px calc(1rem + 2px);
+  border-radius: 0.5rem;
+}
+
+.navLogin > h1, .navSignup > h1 {
+    margin: 0.75rem 1rem;
+}
+
+.navSignup {
+  padding: 0rem 1rem;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+.heroContent > h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.heroContent > p {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.heroContent > button {
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #f5d856;
+  font-size: 1.2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.heroContent > button:hover {
+  cursor: pointer;
+  transform: translateY(-0.5rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  filter: brightness(1.05);
+}
+
+.heroContent {
+  width: 100%;
+  max-width: 800px;
+  background: var(--white);
+  border-radius: 2rem;
+  padding: 3rem;
+}
