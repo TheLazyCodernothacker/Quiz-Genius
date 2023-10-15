@@ -9,7 +9,6 @@ export default async function Dashboard() {
   }
   return (
     <>
-      <NavBar />
       <div className="hero">
         <div className="heroContent">
           <h1>Quiz Genius</h1>
