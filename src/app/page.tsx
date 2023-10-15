@@ -1,5 +1,3 @@
-import NavBar from "../components/Navbar";
-import Footer from "../components/Footer";
 import { getServerSession } from "next-auth";
 import { redirect } from "next/navigation";
 
@@ -11,7 +9,6 @@ export default async function Home() {
   return (
     <>
       <header>
-        <NavBar />
         <div className="hero">
           <div className="heroContent">
             <h1>Quiz Genius</h1>
@@ -49,7 +46,6 @@ export default async function Home() {
           </div>
         </div>
       </main>
-      <Footer />
     </>
   );
 }
