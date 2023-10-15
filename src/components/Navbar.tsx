@@ -11,7 +11,7 @@ export default function NavBar() {
   const [active, setActive] = useState(false);
   return (
     <nav className="nav">
-      <Link href="/home" className="navLogo navItem ">
+      <Link href="/" className="navLogo navItem ">
         <Image src={logo} alt="Quiz Genius Logo" width={40} height={40} />
         <h1 className="logoText logoText">Quiz Genius</h1>
       </Link>
